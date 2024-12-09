@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 CORS(app)
-bucket_name = 'pixelspatchwork'
+bucket_name = 'individualwork'
 
 ### routes for pages ###
 
